@@ -4,5 +4,5 @@ Gem::Specification.new do |s|
   s.authors = ["PoC"]
   s.summary = "PoC test"
   s.files = []
-  s.add_dependency "rack", "~> 2.0"
+  s.add_dependency "rack", ">= 2", "< 4"
 end
